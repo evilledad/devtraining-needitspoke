@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <comment>Log the reason provided for this subflow</comment>
+        <compiled_snapshot display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Handle Overdue NeedIt Tasks">c154666adb412300ea6ca455ca961928</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-12 18:01:43</sys_created_on>
+        <sys_id>cd54666adb412300ea6ca455ca961966</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt Spoke" source="x_9095_needit_spok">31b3f321db412300ea6ca455ca96190b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">31b3f321db412300ea6ca455ca96190b</sys_scope>
+        <sys_update_name>sys_hub_action_instance_cd54666adb412300ea6ca455ca961966</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-12 18:01:43</sys_updated_on>
+        <ui_id>18c711e3-c7b3-45ff-bbc8-347e6c449313</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cd54666adb412300ea6ca455ca961966"/>
+    <sys_element_mapping action="delete_multiple" query="id=cd54666adb412300ea6ca455ca961966"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>cd54666adb412300ea6ca455ca961966</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-12 18:01:43</sys_created_on>
+        <sys_id>d954666adb412300ea6ca455ca96196b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-12 18:01:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>{{subflow.reason}}</value>
+    </sys_element_mapping>
+</record_update>
